@@ -1,0 +1,83 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("FettyHub", "DarkTheme")
+
+
+-- MAIN
+local Main = Window:NewTab("FurryFuck!")
+local MainSelection = Main:NewSection("FurryFuck Script!")
+
+MainSelection:NewButton("Furry Fuck Script!", "Ебет всех фури и женщин в игре)", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/5aR7m8LZ'),true))()
+end)
+
+
+local Main = Window:NewTab("Admin Scripts")
+local MainSelection = Main:NewSection("Admin Scripts")
+
+
+
+MainSelection:NewButton("Infinity Yield", "Админ скрипт", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+local Main = Window:NewTab("Hubs")
+local MainSelection = Main:NewSection("Hubs")
+
+MainSelection:NewButton("Universal FE", "Очень крутой хаб для веселья)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+MainSelection:NewButton("Sussy Hub", "Хаб с сексуальными анимациями", function()
+    loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+
+MainSelection:NewButton("Search Any Hub", "Хаб для поиска других хабов(вау)", function()
+_G.posX = 0.405
+_G.posY = 0.9
+_G.searchButton = ";"
+_G.commandPrefix = "/"
+
+spawn(loadstring(game:HttpGet('https://raw.githubusercontent.com/alvin677/search/main/search.lua'))())
+end)
+
+MainSelection:NewButton("Netless", "Юзать перед использованием скрипта", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+end)
+
+MainSelection:NewButton("HatHubv2", "Хаб использовать только с определенными шапками!", function()
+    loadstring(game:HttpGet(('https://textbin.net/raw/rvohv1nvuf'),true))()
+end)
+
+local Main = Window:NewTab("YBA")
+local MainSelection = Main:NewSection("YBA")
+
+MainSelection:NewButton("YbaScript", "содержит много чего крутого", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))() 
+end)
+
+local Main = Window:NewTab("nico's nextbots")
+local MainSelection = Main:NewSection("nico's nextbots")
+
+MainSelection:NewButton("Position 1", "Tp to Pos 1", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-71.1336823, 37.3500214, 364.985413, 0.993840158, 9.37080546e-09, -0.110823229, -7.03349512e-09, 1, 2.14813731e-08, 0.110823229, -2.05695763e-08, 0.993840158)
+end)
+
+MainSelection:NewButton("Position 2", "Tp to Pos 2", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-96.2401123, 21.8499928, -15.0694742, -0.996033907, 7.26162739e-08, 0.0889746994, 6.91063917e-08, 1, -4.25285762e-08, -0.0889746994, -3.62111834e-08, -0.996033907)
+end)
+MainSelection:NewButton("Position 3", "Tp to Pos 3", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-289.106384, 36.8499908, 58.772747, -0.999383628, 0, 0.0351050198, 0, 1, 0, -0.0351050198, 0, -0.999383628)
+end)
+MainSelection:NewButton("Position 4", "Tp to Pos 4", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-37.586544, 49.7499886, 334.177948, -0.0144707626, -1.82938269e-08, 0.999895275, 1.3713902e-08, 1, 1.84942142e-08, -0.999895275, 1.39800918e-08, -0.0144707626)
+end)
+MainSelection:NewButton("Position 5", "Tp to Pos 5", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41.707077, 49.7499886, 343.756989, 0.0138694374, -6.96332521e-08, 0.999903798, 8.2013905e-08, 1, 6.85023522e-08, -0.999903798, 8.10559229e-08, 0.0138694374)
+end)
+
+local Main = Window:NewTab("AUT")
+local MainSelection = Main:NewSection("AUT")
+
+MainSelection:NewButton("Op script", "Op script AUT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ewyzu/Spotify-Scripts/main/A-Universal-Time"))()
+end)
